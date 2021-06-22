@@ -22,13 +22,12 @@ import { MdLock } from "react-icons/md";
 import { RiWechatFill,RiWeiboFill } from "react-icons/ri"
 import { AiOutlineQq,AiOutlineMail } from "react-icons/ai"
 import { useFormik } from "formik";
-import * as Yup from 'yup'
+import * as Yup from "yup"
 import axios from "axios"
 import { useState } from "react"
 
 
 export default function SignIn () {
-  const [errmsg, setErrMsg] = useState("默认错误信息");
   const formik = useFormik({
     initialValues: { email: "", password: "" },
     validationSchema: Yup.object({
@@ -159,7 +158,6 @@ export default function SignIn () {
           </Center>
         </WrapItem>
       </Wrap>
-      <Text>{errmsg}</Text>
     </div>
   );
 }

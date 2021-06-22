@@ -14,4 +14,13 @@ yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^
 
 // 添加图标组件库
 yarn add react-icons
+
+// 安装 axios
+yarn add axios
+```
+
+## demo 地址
+
+```dotnetcli
+http://chakra-jianshu.roch.top:3002
 ```
